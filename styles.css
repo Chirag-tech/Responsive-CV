@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Marck+Script&family=Overlock&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ad5389;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.main {
+    /* display: grid;
+    justify-content: center;
+    margin-left: 80px;
+    padding-bottom: 20px; */
+    background-color: white;
+    color: black;
+    margin: 20px 20%;
+    /* padding-bottom: 30px; */
+    padding: 15px;
+    box-shadow: 2px 3px 2px 1px rgb(204, 204, 204), -1px -3px 2px 1px rgb(204, 204, 204);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.header-section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.codechef h4 {
+    padding-top: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.name {
+    font-family: 'Overlock', cursive;
+    font-style: italic;
+}
+
+.college-info,
+.school-info,
+.Angular-developer {
+    margin: 10px 0px;
+}
+
+ul {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+li {
+    margin: 5px 0px;
+}
+
+.headline {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+
+span {
+    display: flex;
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+    margin-left: 10px;
+}
+
+.lang {
+    margin-left: 10px;
+}
+
+
+/* media-queries */
+
+@media only screen and (max-width:1250px) {
+    .main {
+        margin: 20px 12%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .main {
+        margin: 20px 5%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .main {
+        margin: 20px 5px;
+    }
+    p,
+    li {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .headline {
+        font-size: 16px
+    }
+    .name {
+        font-size: 10px
+    }
+    a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    p,
+    li {
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+    .headline {
+        font-size: 14px
+    }
+    .name {
+        font-size: 8px
+    }
+    a {
+        font-size: 8px;
+    }
+}
